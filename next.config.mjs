@@ -7,6 +7,11 @@ const nextConfig = {
             hostname: 'scontent.fdac14-1.fna.fbcdn.net',
             port: '',
             },
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+                port: '',
+            },
         ]
     }
 };
