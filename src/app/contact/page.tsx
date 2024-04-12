@@ -1,7 +1,7 @@
 'use client'
 
 import { BackgroundBeams } from '@/components/ui/background-beams';
-import React, { useState } from 'react';
+import React, { FormEvent, useState } from 'react';
 
 const Page = () => {
     const [email, setEmail] = useState('');
