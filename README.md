@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Music Course Application with TypeScript, Next JS, AceternityUI, Framer Motion animation library, TailwindCSS.
 
 ## Getting Started
 
@@ -18,19 +18,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+To using with Docker.
+here is docker image: https://hub.docker.com/r/rumman99/music-course-app
 
-To learn more about Next.js, take a look at the following resources:
+or can just pull using: docker pull rumman99/music-course-app. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Docker Instruction:
+1. Open you command prompt paste this pull request "docker pull rumman99/music-course-app".
+2. Then rumman99/music-course-app image will be available inside your images section.
+3. Enter this command to start container for this image "docker run -it -p 3000:3000 --name imageName rumman99/music-course-app ", this will run this NEXTJS app in PORT:3000. NOTE:(you can change imageName to any name for your container).
+4. Search in your browser, 'https://localhost:3000'.
+5. Any time just enter "docker start imageName", to run this container in PORT:3000. NOTE:(use your container name in imageName).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Thank You.....
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ENJOY NOW :)
